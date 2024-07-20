@@ -1,0 +1,21 @@
+.block {
+    height: 500px;
+    width: 500px;
+    background-color: green;
+}
+
+/* #block {
+    background-color: blueviolet;
+} */
+
+.block2 {
+    background-color: rgb(105, 10, 14);
+}
+
+* {
+    background-color: rgb(185, 213, 41);
+}
+
+div.block {
+        background-color: darksalmon;
+}
