@@ -1,0 +1,38 @@
+body {
+    font-size: 40px;
+}
+
+div, span {
+    background: grey;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    /* border: 40px solid #534e4e;
+    border-color: #6324eb;
+    border-bottom-color: #cdf213;
+    border-style: dashed; */
+    border: 5px solid #000;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    /* border-radius: 30px; */
+    padding: 15px;
+}
+
+.block2 {
+    border: 5px dotted #000;
+    margin-top: 100px;
+    margin-right: -100px;
+}
+.inline {
+    margin: 100px;
+}
+
+img {
+    border: 5px dashed rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 30px;
+}

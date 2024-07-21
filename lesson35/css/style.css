@@ -1,0 +1,42 @@
+body {
+    font-size: 40px;
+}
+
+div,
+span {
+    background: grey;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    display: inline-block; 
+    width: 400px;
+    height: 200px;
+    overflow: auto;
+}
+
+.block2 {
+    opacity: .5;
+}
+
+
+.inline {
+    display: block;
+    opacity: .3;
+
+}
+
+img {
+    border-radius: 30px; 
+    display: block;
+}
+.img2 {
+    /* visibility: hidden; */
+    opacity: .7;
+}

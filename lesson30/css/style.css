@@ -1,0 +1,15 @@
+body {
+    font-size: 40px;
+}
+
+.block, .inline {
+    background: grey;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    padding: 50px 30px;
+}

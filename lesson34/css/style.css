@@ -1,0 +1,31 @@
+body {
+    font-size: 40px;
+}
+
+div,
+span {
+    background: grey;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    display: inline-block; 
+    width: 400px;
+}
+
+
+.inline {
+    display: block;
+
+}
+
+img {
+    border-radius: 30px; 
+    display: block;
+}

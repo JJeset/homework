@@ -1,0 +1,44 @@
+body {
+    font-size: 40px;
+}
+
+div,
+span {
+    background: rgb(171, 163, 106);
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.text {
+    font-size: 70%;
+    text-align: left;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h4 {
+    margin-left: 30px;
+    margin: 30px 30px 30px;
+}
+
+.block {
+    box-shadow: inset 0px 0px 10px 1px rgb(35, 35, 35);
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    margin: 10px 10px 10px;
+    padding: 10px;
+}
+
+section {
+    height: 800px;
+    background-color: rgb(195, 207, 220);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    overflow: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding-top: 10px;
+}

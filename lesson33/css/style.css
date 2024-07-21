@@ -1,0 +1,28 @@
+body {
+    font-size: 40px;
+}
+
+div,
+span {
+    background: grey;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    padding: 100px;
+    margin: 100px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 10px #4e25e2, inset 15px 15px 10px #000;
+}
+
+
+.inline {
+    box-shadow: 15px 15px 10px #000;
+}
+
+img {
+    border-radius: 30px;
+}
