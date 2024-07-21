@@ -1,0 +1,25 @@
+body {
+    font-size: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+.block {
+    margin: 5vw;
+    height: 50vh;
+    box-shadow: 0 0.5vw 3vw #000;
+    border-radius: 2vw;
+    background: #fff;
+}
+
+.block {
+    overflow: auto;
+    /* background: #e0a7a7; */
+    background: url("../img/Screenshot_3.bmp") 50% 50% / contain no-repeat, url("../img/7bf9f32d.jpg") no-repeat;
+    /* background-image: radial-gradient(rgb(26, 5, 122), rgb(58, 58, 224), rgb(78, 222, 222)); */
+    /* background-repeat: no-repeat; */
+    /* background-position: 10%, 10%; */
+    /* background-attachment: local; */
+    /* background-size: auto; */
+}
