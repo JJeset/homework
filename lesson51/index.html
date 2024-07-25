@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БЭМ практика</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Для разбора использовал сайт https://preview.colorlib.com/#jobboard2, правда накинул будто у него есть навигация в хедере -->
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a class="header__logo" href="">
+                    <img src="" alt="">
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link nav__link--active" href="">Ссылка</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="">Ссылка</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="">Ссылка</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="">Ссылка</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="">Ссылка</a>
+                        </li>
+                    </ul>
+                    <div class="header-controls">
+                        <button class="header-controls__button1">Кнопка</button>
+                        <button class="header-controls__button2">Кнопка</button>
+                    </div>
+            </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main-content">
+            <div class="container">
+                <h3 class="main-content__subtitle">4536+ Jobs listed</h3>
+                <h1 class="main-content__title">Find your Dream Job</h1>
+                <div class="main-content__text"></div>
+                <button class="main-content-btn">
+                    Кнопка
+                </button>
+            </div>
+        </section>
+        <section class="main-search">
+            <div class="container">
+                <div class="main-search-inner">
+                    <form class="main-search-form">
+                        <input class="main-search-form__input" type="text">
+                        <select name="main-search-form__select-location" id="location">
+                            <option value="">Location</option>
+                            <option value="1">Location1</option>
+                            <option value="2">Location2</option>
+                            <option value="3">Location3</option>
+                        </select>
+                        <select name="main-search-form__select-category" id="category">
+                            <option value="">Category</option>
+                            <option value="1">Category1</option>
+                            <option value="2">Category2</option>
+                            <option value="3">Category3</option>
+                        </select>
+                        <button class="main-search-form__button" type="submit">Find Job</button>
+                    </form>
+                </div>
+                <div class="main-search-pop-links">
+                    <h4>Popular Search</h4>
+                    <div class="main-search-pop-links__links">
+                            <a href="#">Link1</a>
+                            <a href="#">Link1</a>
+                            <a href="#">Link1</a>
+                            <a href="#">Link1</a>
+                            <a href="#">Link1</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

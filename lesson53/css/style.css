@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Kalnia Glaze';
+  src: local('Kalnia Glaze Thin'), local('KalniaGlaze-Thin'),
+      url('../fonts/KalniaGlaze-Thin.woff2') format('woff2'),
+      url('../fonts/KalniaGlaze-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+.text {
+  /* background: rgb(0, 0, 0); */
+  font-family: "Kalnia Glaze", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(0, 0, 0)
+}
