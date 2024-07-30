@@ -19,27 +19,33 @@ body {
 
 .title {
     margin-top: 50px;
+    position: relative;
+    display: flex;
 }
 
 .title::before {
     position: absolute;
+    display: flex;
     content: '';
     background: red;
     height: 100px;
     width: 100px;
     border-radius: 100%;
     border: 5px solid #b5b3b3;
-    left: 150px;
+    right: 400px;
+    bottom: 3px;
 }
 
 .title::after {
     position: absolute;
+    display: flex;
     content: '';
     background: blue;
     height: 100px;
     width: 100px;
     border-radius: 100%;
     border: 5px solid #b5b3b3;
-    right: 150px;
+    left: 400px;
+    bottom: 3px;
 
 }
