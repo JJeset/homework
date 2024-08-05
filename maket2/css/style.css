@@ -158,12 +158,13 @@ body {
     height: 56px;
     width: 100%;
     max-width: 289px;
+
+    transition: all 0.3s;
 }
 
 .button:hover {
     color: var(--white-text);
     background: #83ADD3;
-    transition: all 0.3s;
 }
 
 .hero__video {
